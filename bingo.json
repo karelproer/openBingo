@@ -1,5 +1,7 @@
 {
-    "free": ["Too loud music"],
+    "free": [
+        "Too loud music"
+    ],
     "random": [
         "Clearly AI-generated content",
         "Speech fully in non-English",
@@ -12,13 +14,12 @@
         "Important person arrives too late",
         "More than 10 dancers on stage",
         "People throwing stuff or shouting",
-        "Wrong name/image/country on-screen",
+        "Wrong name / image / country on-screen",
         "'You will shape the future'",
         "'You are all winners'",
         "Someone cries",
         "Propaganda",
         "Sponsor video",
-        
         "Saying the name of the host country wrong",
         "Mispronounced contestant name",
         "Tourist appears",
