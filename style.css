@@ -1,0 +1,37 @@
+#bingogobrrrr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(41, 41, 41);
+    margin: 6%;
+    padding: 0.5vw;
+    border-radius: 10px;
+}
+
+#logo {
+    width: 30%;
+}
+
+#bingogobrrrr>div {
+    background-color: rgb(132, 132, 132);
+    margin: 0.5vw;
+    border-radius: 2vw;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2.5vw;
+}
+
+.cliked {
+    background-color: green !important;
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+}

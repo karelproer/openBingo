@@ -1,0 +1,36 @@
+{
+    "free": ["Too loud music"],
+    "random": [
+        "Clearly AI-generated content",
+        "Speech fully in non-English",
+        "Saying 'olympiad' wrong",
+        "Long boring speech by government official",
+        "IOI song",
+        "Medalist left out",
+        "Contestant not present",
+        "Takes 30m longer than planned",
+        "Important person arrives too late",
+        "More than 10 dancers on stage",
+        "People throwing stuff or shouting",
+        "Wrong name/image/country on-screen",
+        "'You will shape the future'",
+        "'You are all winners'",
+        "Someone cries",
+        "Propaganda",
+        "Sponsor video",
+        
+        "Saying the name of the host country wrong",
+        "Mispronounced contestant name",
+        "Tourist appears",
+        "Someone trips when collecting medal",
+        "Spelling mistake on screen",
+        "'It is not about the medals'",
+        "Microphone feedback",
+        "Epic Germany video",
+        "Pretzels appear",
+        "AI-edited photos of participants",
+        "Somebody gets wrong medal color",
+        "Honourable mentions not mentioned",
+        "Interview by O'zbekiston 24"
+    ]
+}
