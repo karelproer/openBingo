@@ -40,10 +40,13 @@ function shuffle(array, getRand) {
 }
 
 function bingo() {
+    if(called) return;
+    called=true;
     alert("Shout 'Bingo!' loudly as fast as possible!\n\nThe first person to shout 'Bingo!' in the ceremony hall will receive a pack of stroopwafels. Message us on Discord (IOI server, or privately to any member of the Dutch delegation) to claim your prize.")
 }
 
 let cells = new Array(25);
+let called = false;
 
 function handleClick() {
     $(this).toggleClass("cliked");
