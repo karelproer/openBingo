@@ -68,7 +68,8 @@ function handleClick() {
             return;
         }
     }
-    if(b3 || b4) bingo();
+    if(b3 || b4)
+        bingo();
 }
 
 $(function() {
