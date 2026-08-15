@@ -50,8 +50,13 @@ function handleClick() {
     let id = this.id.slice(1);
     cells[id] = 1 - cells[id];
 
+    let b3 = true, b4 = true; 
     for(let r = 0; r < 5; r++) {
         let b = true, b2 = true;
+        if(!cells[r*5+r])
+            b3 = false;
+        if(!cells[r*5-r+4])
+            b4 = false;
         for(let c = 0; c < 5; c++) { // :O c++ reference????
             if(!cells[r*5+c])
                 b = false;
@@ -59,9 +64,11 @@ function handleClick() {
                 b2 = false;
         }
         if(b || b2) {
-            bingo();        
+            bingo();
+            return;
         }
     }
+    if(b3 || b4) bingo();
 }
 
 $(function() {
