@@ -50,9 +50,11 @@ function handleClick() {
     let id = this.id.slice(1);
     cells[id] = 1 - cells[id];
 
-    let b3 = true, b4 = true; 
+    let tC = id%5, tR = (id-tC)/5;
+    let b3 = tC == tR, b4 = tC == 4-tR; 
+
     for(let r = 0; r < 5; r++) {
-        let b = true, b2 = true;
+        let b = tR == r, b2 = tC == r;
         if(!cells[r*5+r])
             b3 = false;
         if(!cells[r*5-r+4])
